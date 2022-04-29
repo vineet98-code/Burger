@@ -1,0 +1,93 @@
+.burgerIngredients{
+    height: 290px;
+    width: 100%;
+    overflow: auto;
+}
+.burgerIngredients p{
+    text-align: center;
+}
+.BreadTop {
+    height: 20%;
+    width: 20%;
+    background: linear-gradient(#bc581e, #e27b36);
+    border-radius: 50% 50% 0 0;
+    box-shadow: inset -15px 0 #c15711;
+    margin: 3px auto;
+}
+
+.BreadBottom{
+    height: 13%;
+    width: 20%;
+    background: linear-gradient(#F08E4A, #e27b36);
+    border-radius: 0 0 30px 30px;
+    box-shadow: inset -15px 0 #c15711;
+    margin: 3px auto;
+}
+.meat{
+    height: 45px;
+    width: 100%;
+    background: linear-gradient(#7f3608, #702e05);
+    background-size: 300px;
+    border-radius: 0 0 30px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.aloo_tikki{
+    background-image: url(./assets/aloo_tikki.jpg);
+    background-size: 300px;
+    height: 27px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+   background-position: center;
+}
+.tomato{
+    background-image: url(./assets/tomato.jpg);
+    background-size: 300px;
+    height: 20px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cheese{
+    background-image: url(./assets/cheese.jpg);
+    background-size: 300px;
+    height: 15px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.all_ingredients{
+    background-color: rgb(244, 236, 236);
+    margin: 10px auto;
+    max-width: 350px;
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.all_ingredients p{
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(224, 21, 21);
+    text-transform: uppercase;
+}
+.btn{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .BreadTop{
+      width: 50%;
+      }
+    .BreadBottom{
+      width: 50%;
+      }
+      
+  }
