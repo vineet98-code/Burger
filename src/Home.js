@@ -7,7 +7,6 @@ import { auth } from './firebase'
 import { signInWithPopup, GoogleAuthProvider,FacebookAuthProvider, signInWithEmailAndPassword, createUserWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth'
 import { Button, Input } from '@material-ui/core';
 
-
 function getModalStyle() {
   const top = 50;
   const left = 50;
